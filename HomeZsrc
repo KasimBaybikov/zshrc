@@ -1,0 +1,16 @@
+alias cdd='cd /Users/kasimbaybikov/Desktop/'
+alias py='python3'
+alias ll='ls -l'
+alias du1='du -h -d1 | sort -h'
+alias flags="echo "-Iincludes" > compile_flags.txt && echo "-I/Library/Developer/CommandLineTools/usr/include/c++/v1" >> compile_flags.txt"
+alias ncl="nc localhost 8080"
+
+export PROMPT='%n%~$ '
+export GOPATH='/usr/local/go'
+export PATH=$PATH:$HOME/scripts/
+
+setopt nobeep
+autoload -Uz compinit && compinit
+
+# Load Homebrew config script
+source $HOME/.brewconfig.zsh
