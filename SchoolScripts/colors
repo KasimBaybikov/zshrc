@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+echo 'for example: echo "\\033[38;5;{COLOR}"'
+for COLOR in {1..255}; do echo -en "\e[38;5;${COLOR}m\"\\\e[38;5;${COLOR}m\" "; done; echo
