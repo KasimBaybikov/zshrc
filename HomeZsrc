@@ -1,13 +1,16 @@
 alias cdd='cd /Users/kasimbaybikov/Desktop/'
 alias py='python3'
+alias py3='python3'
 alias ll='ls -l'
 alias du1='du -h -d1 | sort -h'
 alias flags="echo "-Iincludes" > compile_flags.txt && echo "-I/Library/Developer/CommandLineTools/usr/include/c++/v1" >> compile_flags.txt"
-alias ncl="nc localhost 8080"
+#alias ncl="nc localhost 8090"
+#alias ncnginx="nc localhost 8080"
 
 export PROMPT='%n%~$ '
-export GOPATH='/usr/local/go'
-export PATH=$PATH:$HOME/scripts/
+export GOPATH=$HOME/go
+export PATH=$PATH:$HOME/scripts/:$GOPATH
+#export MallocStackLoggingNoCompact='1'
 
 setopt nobeep
 autoload -Uz compinit && compinit
