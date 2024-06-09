@@ -2,7 +2,7 @@
 
 export PATH=$PATH:$HOME/Scripts/:$(go env GOPATH)/bin
 export XDG_CONFIG_HOME="$HOME/.config"
-export GOPATH='$HOME/go'
+export GOPATH="$HOME/go"
 
 go env -w GOPROXY="https://goproxy.msk.avito.ru|https://proxy.golang.org,direct"
 go env -w GONOSUMDB="go.avito.ru"
