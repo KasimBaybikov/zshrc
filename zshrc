@@ -1,4 +1,4 @@
-ZSH=$HOME/.zsh
+ZSH=$HOME/.config/zsh
 
 # Load config scripts
 source $ZSH/main.zsh

@@ -5,6 +5,4 @@ autoload -Uz compinit && compinit
 
 source <(docker completion zsh)
 source <(kubectl completion zsh)
-
-#source <(velero completion zsh)
-#source <(decort completion zsh)
+source <(avito completion zsh)
